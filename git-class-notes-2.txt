@@ -1,0 +1,32 @@
+Github 
+
+User id: unixmani
+Password: DevOps@81
+
+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   ---> Token
+
+Github central repo:- https://github.com/unixmani/github-lab.git
+
+Gitub repo Name:- github-lab
+
+git basic configuration:
+
+$git config --global user.name "Mani"
+$git config --global user.email "unix.manikandan@gmail.com"
+$git config --global push.default "simple"
+
+
+user/developer workflow:
+========================
+$git clone <source-centralrepo> <dest-localrepo>
+$git clone https://github.com/unixmani/github-lab.git
+$git stauts
+
+$git add 1.java
+$git commit -m "first change for dummy release"
+$git log
+$git log -num
+$git log --oneline 
+$git log --oneline -1
+
+$git pull
